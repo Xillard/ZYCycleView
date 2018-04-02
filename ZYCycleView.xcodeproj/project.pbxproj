@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F20DBDA8206A955200BC62BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F20DBDA7206A955200BC62BE /* AppDelegate.m */; };
+		F20DBDAB206A955200BC62BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F20DBDAA206A955200BC62BE /* ViewController.m */; };
+		F20DBDAE206A955200BC62BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20DBDAC206A955200BC62BE /* Main.storyboard */; };
+		F20DBDB0206A955200BC62BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20DBDAF206A955200BC62BE /* Assets.xcassets */; };
+		F20DBDB3206A955200BC62BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20DBDB1206A955200BC62BE /* LaunchScreen.storyboard */; };
+		F20DBDB6206A955200BC62BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F20DBDB5206A955200BC62BE /* main.m */; };
+		F20DBDC0206A955200BC62BE /* ZYCycleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F20DBDBF206A955200BC62BE /* ZYCycleViewTests.m */; };
+		F20DBDCB206A955200BC62BE /* ZYCycleViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F20DBDCA206A955200BC62BE /* ZYCycleViewUITests.m */; };
+		F20DBDDA206A977800BC62BE /* ZYCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F20DBDD9206A977800BC62BE /* ZYCycleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F20DBDBC206A955200BC62BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F20DBD9B206A955200BC62BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F20DBDA2206A955200BC62BE;
+			remoteInfo = ZYCycleView;
+		};
+		F20DBDC7206A955200BC62BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F20DBD9B206A955200BC62BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F20DBDA2206A955200BC62BE;
+			remoteInfo = ZYCycleView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F20DBDA3206A955200BC62BE /* ZYCycleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYCycleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20DBDA6206A955200BC62BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F20DBDA7206A955200BC62BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F20DBDA9206A955200BC62BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F20DBDAA206A955200BC62BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F20DBDAD206A955200BC62BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F20DBDAF206A955200BC62BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F20DBDB2206A955200BC62BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F20DBDB4206A955200BC62BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F20DBDB5206A955200BC62BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F20DBDBB206A955200BC62BE /* ZYCycleViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYCycleViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20DBDBF206A955200BC62BE /* ZYCycleViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYCycleViewTests.m; sourceTree = "<group>"; };
+		F20DBDC1206A955200BC62BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F20DBDC6206A955200BC62BE /* ZYCycleViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYCycleViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20DBDCA206A955200BC62BE /* ZYCycleViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYCycleViewUITests.m; sourceTree = "<group>"; };
+		F20DBDCC206A955200BC62BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F20DBDD8206A977800BC62BE /* ZYCycleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYCycleView.h; sourceTree = "<group>"; };
+		F20DBDD9206A977800BC62BE /* ZYCycleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYCycleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F20DBDA0206A955200BC62BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20DBDB8206A955200BC62BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20DBDC3206A955200BC62BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F20DBD9A206A955200BC62BE = {
+			isa = PBXGroup;
+			children = (
+				F20DBDA5206A955200BC62BE /* ZYCycleView */,
+				F20DBDBE206A955200BC62BE /* ZYCycleViewTests */,
+				F20DBDC9206A955200BC62BE /* ZYCycleViewUITests */,
+				F20DBDA4206A955200BC62BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F20DBDA4206A955200BC62BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F20DBDA3206A955200BC62BE /* ZYCycleView.app */,
+				F20DBDBB206A955200BC62BE /* ZYCycleViewTests.xctest */,
+				F20DBDC6206A955200BC62BE /* ZYCycleViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F20DBDA5206A955200BC62BE /* ZYCycleView */ = {
+			isa = PBXGroup;
+			children = (
+				F20DBDA6206A955200BC62BE /* AppDelegate.h */,
+				F20DBDA7206A955200BC62BE /* AppDelegate.m */,
+				F20DBDA9206A955200BC62BE /* ViewController.h */,
+				F20DBDAA206A955200BC62BE /* ViewController.m */,
+				F20DBDD8206A977800BC62BE /* ZYCycleView.h */,
+				F20DBDD9206A977800BC62BE /* ZYCycleView.m */,
+				F20DBDAC206A955200BC62BE /* Main.storyboard */,
+				F20DBDAF206A955200BC62BE /* Assets.xcassets */,
+				F20DBDB1206A955200BC62BE /* LaunchScreen.storyboard */,
+				F20DBDB4206A955200BC62BE /* Info.plist */,
+				F20DBDB5206A955200BC62BE /* main.m */,
+			);
+			path = ZYCycleView;
+			sourceTree = "<group>";
+		};
+		F20DBDBE206A955200BC62BE /* ZYCycleViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F20DBDBF206A955200BC62BE /* ZYCycleViewTests.m */,
+				F20DBDC1206A955200BC62BE /* Info.plist */,
+			);
+			path = ZYCycleViewTests;
+			sourceTree = "<group>";
+		};
+		F20DBDC9206A955200BC62BE /* ZYCycleViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F20DBDCA206A955200BC62BE /* ZYCycleViewUITests.m */,
+				F20DBDCC206A955200BC62BE /* Info.plist */,
+			);
+			path = ZYCycleViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F20DBDA2206A955200BC62BE /* ZYCycleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F20DBDCF206A955200BC62BE /* Build configuration list for PBXNativeTarget "ZYCycleView" */;
+			buildPhases = (
+				F20DBD9F206A955200BC62BE /* Sources */,
+				F20DBDA0206A955200BC62BE /* Frameworks */,
+				F20DBDA1206A955200BC62BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYCycleView;
+			productName = ZYCycleView;
+			productReference = F20DBDA3206A955200BC62BE /* ZYCycleView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F20DBDBA206A955200BC62BE /* ZYCycleViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F20DBDD2206A955200BC62BE /* Build configuration list for PBXNativeTarget "ZYCycleViewTests" */;
+			buildPhases = (
+				F20DBDB7206A955200BC62BE /* Sources */,
+				F20DBDB8206A955200BC62BE /* Frameworks */,
+				F20DBDB9206A955200BC62BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F20DBDBD206A955200BC62BE /* PBXTargetDependency */,
+			);
+			name = ZYCycleViewTests;
+			productName = ZYCycleViewTests;
+			productReference = F20DBDBB206A955200BC62BE /* ZYCycleViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F20DBDC5206A955200BC62BE /* ZYCycleViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F20DBDD5206A955200BC62BE /* Build configuration list for PBXNativeTarget "ZYCycleViewUITests" */;
+			buildPhases = (
+				F20DBDC2206A955200BC62BE /* Sources */,
+				F20DBDC3206A955200BC62BE /* Frameworks */,
+				F20DBDC4206A955200BC62BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F20DBDC8206A955200BC62BE /* PBXTargetDependency */,
+			);
+			name = ZYCycleViewUITests;
+			productName = ZYCycleViewUITests;
+			productReference = F20DBDC6206A955200BC62BE /* ZYCycleViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F20DBD9B206A955200BC62BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "夏小静";
+				TargetAttributes = {
+					F20DBDA2206A955200BC62BE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F20DBDBA206A955200BC62BE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F20DBDA2206A955200BC62BE;
+					};
+					F20DBDC5206A955200BC62BE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F20DBDA2206A955200BC62BE;
+					};
+				};
+			};
+			buildConfigurationList = F20DBD9E206A955200BC62BE /* Build configuration list for PBXProject "ZYCycleView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F20DBD9A206A955200BC62BE;
+			productRefGroup = F20DBDA4206A955200BC62BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F20DBDA2206A955200BC62BE /* ZYCycleView */,
+				F20DBDBA206A955200BC62BE /* ZYCycleViewTests */,
+				F20DBDC5206A955200BC62BE /* ZYCycleViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F20DBDA1206A955200BC62BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20DBDB3206A955200BC62BE /* LaunchScreen.storyboard in Resources */,
+				F20DBDB0206A955200BC62BE /* Assets.xcassets in Resources */,
+				F20DBDAE206A955200BC62BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20DBDB9206A955200BC62BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20DBDC4206A955200BC62BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F20DBD9F206A955200BC62BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20DBDAB206A955200BC62BE /* ViewController.m in Sources */,
+				F20DBDB6206A955200BC62BE /* main.m in Sources */,
+				F20DBDDA206A977800BC62BE /* ZYCycleView.m in Sources */,
+				F20DBDA8206A955200BC62BE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20DBDB7206A955200BC62BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20DBDC0206A955200BC62BE /* ZYCycleViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20DBDC2206A955200BC62BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20DBDCB206A955200BC62BE /* ZYCycleViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F20DBDBD206A955200BC62BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F20DBDA2206A955200BC62BE /* ZYCycleView */;
+			targetProxy = F20DBDBC206A955200BC62BE /* PBXContainerItemProxy */;
+		};
+		F20DBDC8206A955200BC62BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F20DBDA2206A955200BC62BE /* ZYCycleView */;
+			targetProxy = F20DBDC7206A955200BC62BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F20DBDAC206A955200BC62BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F20DBDAD206A955200BC62BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F20DBDB1206A955200BC62BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F20DBDB2206A955200BC62BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F20DBDCD206A955200BC62BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F20DBDCE206A955200BC62BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F20DBDD0206A955200BC62BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5X49T6RN3K;
+				INFOPLIST_FILE = ZYCycleView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Xillard.ZYCycleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F20DBDD1206A955200BC62BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5X49T6RN3K;
+				INFOPLIST_FILE = ZYCycleView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Xillard.ZYCycleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F20DBDD3206A955200BC62BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYCycleViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Xillard.ZYCycleViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYCycleView.app/ZYCycleView";
+			};
+			name = Debug;
+		};
+		F20DBDD4206A955200BC62BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYCycleViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Xillard.ZYCycleViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYCycleView.app/ZYCycleView";
+			};
+			name = Release;
+		};
+		F20DBDD6206A955200BC62BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYCycleViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Xillard.ZYCycleViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZYCycleView;
+			};
+			name = Debug;
+		};
+		F20DBDD7206A955200BC62BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZYCycleViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Xillard.ZYCycleViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZYCycleView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F20DBD9E206A955200BC62BE /* Build configuration list for PBXProject "ZYCycleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20DBDCD206A955200BC62BE /* Debug */,
+				F20DBDCE206A955200BC62BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F20DBDCF206A955200BC62BE /* Build configuration list for PBXNativeTarget "ZYCycleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20DBDD0206A955200BC62BE /* Debug */,
+				F20DBDD1206A955200BC62BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F20DBDD2206A955200BC62BE /* Build configuration list for PBXNativeTarget "ZYCycleViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20DBDD3206A955200BC62BE /* Debug */,
+				F20DBDD4206A955200BC62BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F20DBDD5206A955200BC62BE /* Build configuration list for PBXNativeTarget "ZYCycleViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20DBDD6206A955200BC62BE /* Debug */,
+				F20DBDD7206A955200BC62BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F20DBD9B206A955200BC62BE /* Project object */;
+}
