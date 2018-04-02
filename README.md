@@ -1,2 +1,7 @@
 # ZYCycleView
 轮播图的简单实现
+
+此代码使用ScrollView以及PageControl和NSTimer实现轮播图循环,通过NSTimer来改变UIScrollView的偏移量，然后通过scrollView的偏移量来计算当前的page。在数据源最前面添加一个最后的图片，在最后面添加第一个图片，当scrollView偏移量到最后一张图片时，设置scrollView的偏移量为第二张图片，最终达到循环轮播效果。
+
+使用方法:
+把ZYCycleView.h和ZYCycleView.m放入工程中,调用初始化方法,传入frame以及需要轮播的图片源.
