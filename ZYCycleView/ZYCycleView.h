@@ -26,7 +26,7 @@ typedef void(^ClickImageBlock)(NSInteger imageIndex);//点击图片回调block
 
 @property (nonatomic,copy) NSArray *imageArr; //图片数据源
 
-@property (nonatomic,assign) CGFloat scrollTimeInterval;//轮播间隔,默认1s
+@property (nonatomic,assign) CGFloat scrollTimeInterval;//轮播间隔,默认2s
 
 @property (nonatomic,weak) id<ZYCycleViewDelegate>delegate;//点击图片代理
 

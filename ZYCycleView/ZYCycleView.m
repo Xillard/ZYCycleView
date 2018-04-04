@@ -39,7 +39,7 @@
 
 /*初始化默认属性*/
 - (void)initData {
-    _scrollTimeInterval = 1.0;
+    _scrollTimeInterval = 2.0;
     _isShowPageControl = YES;
     _currentPageDotColor = [UIColor whiteColor];
     _pageDotColor = [UIColor lightGrayColor];
@@ -85,10 +85,10 @@
 #pragma mark - 循环图片
 - (void)cyclePictures:(NSTimer *)timer {
     if (self.cycleScrollView.contentOffset.x == (self.pageControl.numberOfPages+1)*CGRectGetWidth(self.bounds)) {
-        [self.cycleScrollView setContentOffset:CGPointMake(CGRectGetWidth(self.bounds), 0) animated:NO];
+        [self.cycleScrollView setContentOffset:CGPointMake(CGRectGetWidth(self.bounds), 0)];
         self.pageControl.currentPage = 0;
     }else{
-        [self.cycleScrollView setContentOffset:CGPointMake(CGRectGetWidth(self.bounds)*(self.pageControl.currentPage+2), 0) animated:YES];
+        [self.cycleScrollView setContentOffset:CGPointMake(CGRectGetWidth(self.bounds)*(self.pageControl.currentPage+2), 0)];
         self.pageControl.currentPage = self.cycleScrollView.contentOffset.x/CGRectGetWidth(self.bounds)-1;
     }
 }
@@ -152,17 +152,19 @@
 }
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
-    if (scrollView.contentOffset.x == 0) {
+//    NSInteger currentIndex = (scrollView.contentOffset.x + CGRectGetWidth(self.bounds) / 2) / CGRectGetWidth(self.bounds);
+    
+    if (scrollView.contentOffset.x == scrollView.contentOffset.x + CGRectGetWidth(self.bounds) / 2) {
         [self.cycleScrollView setContentOffset:CGPointMake(self.pageControl.numberOfPages*CGRectGetWidth(self.bounds), 0) animated:NO];
         self.pageControl.currentPage = self.pageControl.numberOfPages;
-    }else if (scrollView.contentOffset.x == (self.pageControl.numberOfPages+1)*CGRectGetWidth(self.bounds)){
+    }else if (scrollView.contentOffset.x == (self.pageControl.numberOfPages+0.5)*CGRectGetWidth(self.bounds)){
         
         [self.cycleScrollView setContentOffset:CGPointMake(CGRectGetWidth(self.bounds), 0) animated:NO];
         self.pageControl.currentPage = 0 ;
         
     }else{
         
-        self.pageControl.currentPage = scrollView.contentOffset.x/CGRectGetWidth(self.bounds)-1;
+        self.pageControl.currentPage = (scrollView.contentOffset.x+ CGRectGetWidth(self.bounds) / 2)/CGRectGetWidth(self.bounds);
         
     }
 }
